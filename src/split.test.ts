@@ -6,4 +6,7 @@ describe("Split character", () => {
   it("Split even number of chars into pairs", () => {
     expect(splitString("abcdef")).toEqual(["ab", "cd", "ef"]);
   });
+  it("Split even number of chars into pairs", () => {
+    expect(splitString("ghyhyh")).toEqual(["gh", "yh", "yh"]);
+  });
 });
